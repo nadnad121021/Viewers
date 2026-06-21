@@ -28,7 +28,7 @@ type DentalStateContextValue = {
 };
 
 const STORAGE_KEY = 'ohif-dental-viewer-state';
-const BACKEND_URL = 'http://localhost:4010';// Todo: use environment variable
+const BACKEND_URL = 'https://viewers-x0rq.onrender.com';// Todo: use environment variable
 
 const defaultState: DentalViewerState = {
   theme: 'warm',

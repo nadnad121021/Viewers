@@ -1,0 +1,10 @@
+{
+  "name": "@ohif/dental-server",
+  "version": "3.13.0-beta.95",
+  "private": true,
+  "description": "Small authenticated persistence backend for the dental OHIF assessment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}

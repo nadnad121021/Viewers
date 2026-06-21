@@ -1,0 +1,15 @@
+{
+  "name": "@ohif/extension-dental",
+  "version": "3.13.0-beta.95",
+  "description": "Dental customization extension for OHIF",
+  "author": "OHIF Contributors",
+  "license": "MIT",
+  "main": "dist/ohif-extension-dental.js",
+  "module": "src/index.tsx",
+  "files": ["dist/**", "README.md"],
+  "peerDependencies": {
+    "@ohif/core": "workspace:*",
+    "@ohif/extension-cornerstone": "workspace:*",
+    "@ohif/extension-default": "workspace:*"
+  }
+}

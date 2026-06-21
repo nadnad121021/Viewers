@@ -2,16 +2,16 @@
   "users": {
     "dental": {
       "viewerState": {
-        "theme": "warm",
+        "theme": "clinical",
         "numberingSystem": "Universal",
-        "selectedTooth": "3",
+        "selectedTooth": "1",
         "activePreset": {
-          "id": "pa-length",
-          "label": "PA length",
+          "id": "crown-width",
+          "label": "Crown width",
           "toolName": "Length",
           "unit": "mm"
         },
-        "updatedAt": "2026-06-21T08:03:08.269Z"
+        "updatedAt": "2026-06-21T09:05:36.931Z"
       }
     }
   }

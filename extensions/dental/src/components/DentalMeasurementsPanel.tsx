@@ -136,7 +136,7 @@ function DentalMeasurementsPanel(): React.ReactNode {
   }, [measurements, search, sortKey]);
 
   return (
-    <div className="flex h-full flex-col gap-3">
+    <div className="flex h-full min-h-0 flex-col gap-3 overflow-hidden">
       <div className="rounded-lg border border-border bg-card p-3 shadow-sm">
         <div className="flex items-center justify-between gap-2">
           <div>
@@ -173,7 +173,7 @@ function DentalMeasurementsPanel(): React.ReactNode {
         </div>
       </div>
 
-      <div className="rounded-lg border border-border bg-card p-3">
+      <div className="flex min-h-0 flex-1 flex-col rounded-lg border border-border bg-card p-3">
         <div className="mb-3 flex items-center justify-between">
           <div className="text-sm font-medium text-foreground">Latest preset</div>
           {state.activePreset ? (
@@ -185,7 +185,7 @@ function DentalMeasurementsPanel(): React.ReactNode {
           )}
         </div>
 
-        <div className="space-y-2 overflow-auto pr-1">
+        <div className="min-h-0 flex-1 space-y-2 overflow-y-auto pr-1">
           {filteredMeasurements.length ? (
             filteredMeasurements.map(measurement => (
               <button

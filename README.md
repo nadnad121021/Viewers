@@ -1,4 +1,4 @@
-# Dental SaaS Platform (OHIF Viewer Customization)
+# Dental SaaS Platform (OHIF Viewer Customization) - Assessment
 
 ## Overview
 
@@ -45,7 +45,7 @@ git clone <forked-repository-url>
 
 cd Viewers
 
-pnpm install
+pnpm install --frozen-lockfile
 ```
 
 ---
@@ -74,20 +74,6 @@ pnpm install --frozen-lockfile
 
 ---
 
-## Start OHIF Viewer
-
-```bash
-pnpm dev
-```
-
-Viewer:
-
-```text
-http://localhost:3000
-```
-
----
-
 ## Start Dental Backend
 
 ```bash
@@ -105,6 +91,21 @@ http://localhost:4010
 ```
 
 ---
+
+## Start OHIF Viewer
+
+```bash
+pnpm start
+```
+
+Viewer:
+
+```text
+http://localhost:3000
+```
+
+---
+
 
 ## Open Dental Mode
 
@@ -441,29 +442,9 @@ Wrapped custom dental components within DentalStateProvider and restructured lay
 
 ---
 
-# Screenshots
-
-## Dental Header
-
-(Custom Screenshot)
-
-## 2×2 Dental Layout
-
-(Custom Screenshot)
-
-## Measurement Presets
-
-(Custom Screenshot)
-
-## Dental Measurements Panel
-
-(Custom Screenshot)
-
----
-
 # Author
 
-Dental SaaS Platform Technical Assessment
+Dental SaaS Platform Technical Assessment by Danilo Alingasa
 
 Built using:
 
